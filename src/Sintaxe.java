@@ -56,8 +56,4 @@ void main() {
 	
 	char letra = 'a';
 	String nomao = String.valueOf(letra); // Para classes
-	
-	// ----- Orientação a Objetos (OO) -----
-	
-	
 }
