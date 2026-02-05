@@ -1,4 +1,4 @@
-package com.example.sintaxe;
+package sintaxe;
 
 import java.util.ArrayList; // Library util tem utilizados do Java
 
