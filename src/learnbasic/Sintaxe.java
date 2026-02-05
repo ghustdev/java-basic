@@ -1,4 +1,4 @@
-package sintaxe;
+package learnbasic;
 
 import java.util.ArrayList; // Library util tem utilizados do Java
 
@@ -12,7 +12,7 @@ public class Sintaxe {
 		IO.println("Hello World!"); // Moderno
 		
 		// ----- Variáveis -----
-			// var: tipo de escopo local, identifica automaticamente o tipo, precisa do valor
+		// var: tipo de escopo local, identifica automaticamente o tipo, precisa do valor
 		
 		var idade = 20;
 		String nome;
@@ -41,7 +41,7 @@ public class Sintaxe {
 		
 		// ----- ArrayLists / Alocação Dinâmica -----
 		
-			// Biblioteca: import java.util.Arraylist
+		// Biblioteca: import java.util.Arraylist
 		ArrayList<Integer> numbers = new ArrayList<Integer>();
 		numbers.add(1);
 		numbers.add(2);
@@ -51,13 +51,13 @@ public class Sintaxe {
 		numbers.size(); // tamanho
 		
 		// ----- Casting -----
-			// Implicito: apenas define o tipo de foma implicita
+		// Implicito: apenas define o tipo de foma implicita
 		int teste1 = 22;
 		double teste2 = teste1;
 		
 		// teste1 = teste2; // Não pode, pois double é maior, use (int) teste2
-			
-			// Explicito: forçar
+		
+		// Explicito: forçar
 		teste1 = (int )teste2; // Funciona para primitivos
 		
 		char letra = 'a';
