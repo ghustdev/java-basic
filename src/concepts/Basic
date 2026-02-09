@@ -1,0 +1,36 @@
+## Java
+
+- Criada pelo Sun Microsystems em 1995 (adiquirida em 2010 pela Oracle), Java é uma linguagem robusta, de alto nível, orientada a objetos, fortemente tipada e verbosa. Não é compilada direto para oa hardware, mas para Bytecodes que podem ser interpretados pela JVm em qualquer ambiente → “Write once, run anywhere”
+- Principal área de atuação é o Backend e Enterprise
+- Futuro do Java:
+    - **Project Loom:** Introdução de *Virtual Threads* para tornar o processamento paralelo absurdamente mais leve.
+    - **Project Valhalla:** Melhoria na forma como o Java lida com dados na memória, aumentando a performance em nível próximo ao C++.
+    - **Cloud Native:** Otimização para containers (Docker/Kubernetes) com projetos como **Quarkus** e **GraalVM**, reduzindo o tempo de boot e o consumo de memória.
+- Escopo (onde atua):
+    - Corporativo, Enterprise, bancário, Backend
+- Paradigma (modelo e metodologia de como o código é estruturado):
+    - OO Forte
+    - Funcional Moderno
+- Gerenciamento de memória:
+    - Automático (Garbage e Collector)
+
+---
+
+1. JVM - Java Virtual Machine - compila o código para bytecodes (classe) para que a JVM interprete e execute
+2. JDK - Java Development Kit - ambiente e ferramentas para desenvolver em Java, possue o JVM
+
+---
+
+## Java Basic
+
+- Compilação e interpretação:
+
+![Captura de tela de 2026-02-09 07-54-08.png](attachment:351b0eb9-6e07-48ec-af62-9df1c66c4047:Captura_de_tela_de_2026-02-09_07-54-08.png)
+
+## Introdução
+
+- Java ME
+- Java SE
+- Java EE
+- JVM - executar código Java
+- É feita a pré compilação (compilada como no C e C++), vira uma classe / bytecode e depois é interpretada (nese caso é uma compilação JIT - just in time) pela JVM (existe uma para cada sistema, deve ter ela para poder executar)
