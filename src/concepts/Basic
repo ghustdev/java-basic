@@ -1,6 +1,6 @@
 ## Java
 
-- Criada pelo Sun Microsystems em 1995 (adiquirida em 2010 pela Oracle), Java é uma linguagem robusta, de alto nível, orientada a objetos, fortemente tipada e verbosa. Não é compilada direto para oa hardware, mas para Bytecodes que podem ser interpretados pela JVm em qualquer ambiente → “Write once, run anywhere”
+- Criada pelo Sun Microsystems em 1995 (hoje da Oracle), Java é uma linguagem robusta, de alto nível, orientada a objetos, fortemente tipada e verbosa. Não é compilada direto para oa hardware, mas para Bytecodes que podem ser interpretados pela JVm em qualquer ambiente → “Write once, run anywhere”
 - Principal área de atuação é o Backend e Enterprise
 - Futuro do Java:
     - **Project Loom:** Introdução de *Virtual Threads* para tornar o processamento paralelo absurdamente mais leve.
@@ -17,7 +17,8 @@
 ---
 
 1. JVM - Java Virtual Machine - compila o código para bytecodes (classe) para que a JVM interprete e execute
-2. JDK - Java Development Kit - ambiente e ferramentas para desenvolver em Java, possue o JVM
+2. JRE - Java Runtime Environment - JVM + bibliotecas padrões
+3. JDK - Java Development Kit - ambiente e ferramentas para desenvolver em Java, possue o compilador, JVM e JRE
 
 ---
 
@@ -34,3 +35,24 @@
 - Java EE
 - JVM - executar código Java
 - É feita a pré compilação (compilada como no C e C++), vira uma classe / bytecode e depois é interpretada (nese caso é uma compilação JIT - just in time) pela JVM (existe uma para cada sistema, deve ter ela para poder executar)
+
+## Gerenciamento de Memória: Stack vs. Heap
+
+A JVM organiza a memória em duas áreas principais para garantir que o programa seja eficiente:
+
+### **Stack (Pilha)**
+
+- **O que armazena:** Variáveis locais (primitivos como `int`, `double`, `boolean`) e referências de objetos (os "endereços" de onde o objeto está).
+- **Como funciona:** Segue o fluxo LIFO (*Last In, First Out*). Quando você chama um método, um novo "bloco" é criado na Stack. Quando o método termina, esse bloco desaparece instantaneamente.
+- **Velocidade:** Muito rápida, mas o espaço é limitado.
+
+### **Heap (Monte)**
+
+- **O que armazena:** Todos os **objetos** criados com a palavra `new` (ex: `new Pessoa()`, `new Scanner()`).
+- **Como funciona:** É uma área de memória dinâmica e compartilhada por toda a aplicação.
+- **Velocidade:** Mais lenta que a Stack, mas muito maior.
+
+> **Regra de Ouro:** A **Stack** guarda o "nome" da variável e o endereço; o **Heap** guarda o "corpo" do objeto propriamente dito.
+>
+
+---
