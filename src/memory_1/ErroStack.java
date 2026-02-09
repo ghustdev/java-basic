@@ -1,4 +1,4 @@
-package memory;
+package memory_1;
 
 // teste para forçar o erro
 

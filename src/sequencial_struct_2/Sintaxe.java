@@ -1,4 +1,4 @@
-package learnbasic;
+package sequencial_struct_2;
 
 import java.util.ArrayList; // Library util tem utilizados do Java
 
