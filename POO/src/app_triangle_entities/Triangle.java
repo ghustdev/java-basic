@@ -1,4 +1,4 @@
-package app_triangle;
+package app_triangle_entities;
 
 public class Triangle {
 	// Declaração de atributos

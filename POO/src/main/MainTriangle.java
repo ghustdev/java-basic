@@ -1,6 +1,6 @@
-package entities;
+package main;
 
-import app_triangle.Triangle;
+import app_triangle_entities.Triangle;
 
 import java.util.Scanner;
 

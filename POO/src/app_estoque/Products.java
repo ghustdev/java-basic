@@ -17,4 +17,9 @@ public class Products {
 	public void removeProduct(int qtd) {
 		this.qtd -= qtd;
 	}
+	
+	// Sobreposição de metodos / polimorfismo
+	public String toString() {
+		return  "Product data: "+ name + ", $ " + price + ", Quantity: " + qtd + ", Totoal value: " + totalValueInStock();
+	}
 }

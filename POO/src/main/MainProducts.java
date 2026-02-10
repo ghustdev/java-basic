@@ -1,4 +1,4 @@
-package entities;
+package main;
 
 import app_estoque.Products;
 
@@ -19,5 +19,6 @@ public class MainProducts {
 		
 		System.out.println("Datas: ");
 		System.out.println(p1.name + ", " +  p1.price + ", " + p1.qtd);
+		System.out.println(p1.toString());
 	}
 }
