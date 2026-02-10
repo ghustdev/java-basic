@@ -1,6 +1,7 @@
 package sequencial_struct_2;
 
 import java.util.ArrayList; // Library util tem utilizados do Java
+import java.util.Scanner;
 
 // Converti um compact file em uma Class
 // Crie um Package
@@ -62,5 +63,24 @@ public class Sintaxe {
 		
 		char letra = 'a';
 		String nomao = String.valueOf(letra); // Para classes
+		
+		
+		// ----- Swith Case -----
+		Scanner scan = new Scanner(System.in);
+		int X = scan.nextInt();
+		
+		switch (X) {
+			case 1:
+				System.out.println("Segunda");
+				break;
+			case 2: {
+				System.out.println("Terceira");
+				break;
+			}
+		}
+		
+		// ----- Ternary Operation -----
+		double preco = 34.5;
+		double desconto = (preco < 20.0) ? preco * 0.1 : preco * 0.5;
 	}
 }
