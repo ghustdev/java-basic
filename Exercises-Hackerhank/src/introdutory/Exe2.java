@@ -1,4 +1,4 @@
-package hackerhank;
+package introdutory;
 
 import java.util.Scanner;
 

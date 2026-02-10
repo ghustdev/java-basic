@@ -1,4 +1,4 @@
-package hackerhank;
+package introdutory;
 
 public class Exe4 {
 
