@@ -1,5 +1,5 @@
 package hackerhank;
 
-public class exe4 {
+public class Exe4 {
 
 }

@@ -1,4 +1,4 @@
 # java-basic
  
-Estudo de Java, sintaxe e POO
+Estudo de Java, sintaxe e poo
 
