@@ -4,7 +4,7 @@ import app_triangle.Triangle;
 
 import java.util.Scanner;
 
-public class Main {
+public class MainTriangle {
 	public static void main() {
 		Scanner sc = new Scanner(System.in);
 		
