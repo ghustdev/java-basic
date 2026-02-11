@@ -1,4 +1,4 @@
-package sequencial_struct_2;
+package array_vector;
 
 import java.util.ArrayList; // Library util tem utilizados do Java
 import java.util.Scanner;
@@ -32,9 +32,8 @@ public class Sintaxe {
 		}
 		
 		// ----- Array / Vetores -----
-		
-		int[] idades = {1, 2, 3}; // Array pré inicializado
-		int[] nums = new int[10]; // Array com 10 elementos
+		int[] idades = {1, 2, 3}; // Vetor pré inicializado
+		int[] nums = new int[10]; // Vetor com 10 elementos
 		int tamanho = nums.length;
 		
 		System.out.println("Tamanho: " + tamanho);
