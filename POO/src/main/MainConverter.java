@@ -1,6 +1,6 @@
 package main;
 
-import app_converter_utils.CurrancyConverter;
+import app_converter_utils.CurrencyConverter;
 
 import java.util.Scanner;
 
@@ -13,6 +13,6 @@ public class MainConverter {
 		System.out.println("Digite o valor a pagar: ");
 		double price = sc.nextDouble();
 		
-		System.out.println("Quatia em reais: " + CurrancyConverter.converterDolar(value, price));
+		System.out.println("Quatia em reais: " + CurrencyConverter.converterDolar(value, price));
 	}
 }
